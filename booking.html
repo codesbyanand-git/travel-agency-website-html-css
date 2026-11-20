@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip - SkyWay Travels</title>
+    <meta name="description" content="Book your next holiday with SkyWay Travels.">
+    <link rel="shortcut icon" href="./assets/images/travel agency logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/images/travel agency logo.jpg" alt="SkyWay Travels logo" width="200" height="100">
+
+        <nav>
+            <a href="./index.html">Home</a> |
+            <a href="./about.html">About</a> |
+            <a href="./destinations.html">Destinations</a> |
+            <a href="./packages.html">Packages</a> |
+            <a href="./services.html">Services</a> |
+            <a href="./gallery.html">Gallery</a> |
+            <a href="./booking.html">Booking</a> |
+            <a href="./testimonials.html">Testimonials</a> |
+            <a href="./faq.html">FAQ</a> |
+            <a href="./contact.html">Contact</a>
+        </nav>
+
+        <button title="Book Your Trip">Book Now</button>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h1>Book Your Dream Vacation</h1>
+            <p>Fill in your travel details below and our team will
+                contact you to help plan your trip.</p>
+        </section>
+
+        <section>
+            <h2>Travel Booking Request</h2>
+
+            <form action="">
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" id="fullname"
+                    placeholder="Enter your full name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"
+                    placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone"
+                    placeholder="Enter your phone number" required>
+                <br><br>
+
+                <label for="destination">Destination:</label>
+                <select name="destination" id="destination" required>
+                    <option value="">Select Destination</option>
+                    <option>Maldives</option>
+                    <option>Switzerland</option>
+                    <option>Dubai</option>
+                    <option>Paris</option>
+                    <option>Bali</option>
+                    <option>Other</option>
+                </select>
+                <br><br>
+
+                <label for="departure">Departure Date:</label>
+                <input type="date" name="departure" id="departure" required>
+                <br><br>
+
+                <label for="travelers">Number of Travelers:</label>
+                <input type="number" name="travelers" id="travelers" min="1" required>
+                <br><br>
+
+                <label for="package">Package Type:</label>
+                <select name="package" id="package">
+                    <option value="">Select Package</option>
+                    <option>Honeymoon</option>
+                    <option>Family Vacation</option>
+                    <option>Adventure</option>
+                    <option>Luxury</option>
+                    <option>Customized</option>
+                </select>
+                <br><br>
+
+                <label for="message">Additional Requirements:</label>
+                <br>
+                <textarea name="message" id="message" rows="5" cols="50"
+                    placeholder="Tell us about your travel preferences"></textarea>
+                <br><br>
+
+                <button type="submit">Submit Booking Request</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <h4>SkyWay Travels</h4>
+        <p><sub>Explore the World with Comfort</sub></p>
+        <p>Email: info@skywaytravels.com</p>
+        Phone: +91 98765 43210
+        <br>
+        <p>© 2026 SkyWay Travels</p>
+    </footer>
+
+</body>
+</html>
